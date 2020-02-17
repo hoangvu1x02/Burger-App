@@ -1,0 +1,44 @@
+body {
+    background-color: wheat;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes colour-change {
+    from {color: red;}
+    to {color: palevioletred;}
+}
+
+.title {
+    animation-name: colour-change;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+.lists-container {
+	display: flex;
+	justify-content: space-around;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: burlywood;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+#add, #newBurger {
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
